@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Curriculum Vitae | Noelia Sutara</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<svg width="200px" height="200px" viewBox="0 0 300 300">
+		<image xlink:href="svg_iniciales.svg" width="300px" height="300px" alt="logo"></image>
+	</svg>
+	<div class="container">
+		<h1>Curriculum Vitae Noe</h1>
+		<h3 class="titular">DATOS PERSONALES</h3>
+		<h2>Noelia Soledad Sutara</h2>
+		<h2>10/09/1993</h2>
+		<h2>Maipú, Mendoza, Argentina</h2>
+		<!-- enlaces -->
+		<a class="btn" href="index.html">Inicio</a>
+		<a class="btn_active" href="educacion.html">Educación</a>
+		<a class="btn" href="experiencia.html">Experiencia</a>
+		<!-- info personal -->
+		<h2 class="titular">Educación</h2>
+		<table col="3" row="4" border="1">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2019</td>
+					<td>NextU</td>
+					<td>Online</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>Universidad del Aconcagua</td>
+					<td>Mendoza</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Social Media Day</td>
+					<td>Online</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Blissout</td>
+					<td>Mendoza</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2016</td>
+					<td>IBM</td>
+					<td>Mendoza</td>
+					<td>Sí</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- formulario -->
+		<form autocomplete="off" name="formulario_agregar_estudios" style="margin-top: 1rem;">
+				<legend style="margin-bottom: 10px">Agregar Estudios</legend>
+				<label for="Año">Año: </label>
+					<select>
+						<option>2019</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+						<option>2015</option>
+						<option>2014</option>
+					</select><br/>
+				<label for="Institución">Institución: </label><input type="text" name="institucion"><br/>
+				<label for="Lugar">Lugar: </label><textarea rows="3"></textarea><br/>
+				<button>Enviar</button>
+		</form>
+		<!-- pie de página -->
+		<span>DATOS DE CONTACTO: +54 9 2616644418 | noelia.sutara@gmail.com</span>
+	</div>
+</body>
+</html>
